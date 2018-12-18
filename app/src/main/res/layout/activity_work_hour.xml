@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".WorkHourActivity">
+
+    <TextView
+        android:text="Monday"
+        android:layout_marginTop="80dp"
+        android:layout_marginStart="10dp"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:text="Tuesday"
+        android:layout_marginTop="135dp"
+        android:layout_marginStart="10dp"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:text="Wednesday"
+        android:layout_marginTop="190dp"
+        android:layout_marginStart="10dp"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:text="Thursday"
+        android:layout_marginTop="250dp"
+        android:layout_marginStart="10dp"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:text="Friday"
+        android:layout_marginTop="300dp"
+        android:layout_marginStart="10dp"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:text="Entry time"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:layout_marginTop="25dp"
+        android:layout_marginStart="90dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:text="Check-out time"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:layout_marginTop="25dp"
+        android:layout_marginStart="180dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:id="@+id/txtMonSrt"
+        android:text="9:00"
+        android:layout_marginTop="65dp"
+        android:background="@drawable/borderedbox"
+        android:padding="10dp"
+        android:textSize="20sp"
+        android:layout_marginLeft="100dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:id="@+id/txtMonEnd"
+        android:text="18:00"
+        android:layout_marginTop="65dp"
+        android:background="@drawable/borderedbox"
+        android:padding="10dp"
+        android:textSize="20sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="40dp"
+        android:layout_toRightOf="@+id/txtMonSrt" />
+    <TextView
+        android:id="@+id/txtTueSrt"
+        android:text="9:00"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/borderedbox"
+        android:padding="10dp"
+        android:textSize="20sp"
+        android:layout_marginLeft="100dp"
+        android:layout_below="@+id/txtMonSrt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:id="@+id/txtTueEnd"
+        android:text="18:00"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/borderedbox"
+        android:padding="10dp"
+        android:textSize="20sp"
+        android:layout_below="@+id/txtMonEnd"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="40dp"
+        android:layout_toRightOf="@+id/txtMonSrt" />
+    <TextView
+        android:id="@+id/txtWedSrt"
+        android:text="9:00"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/borderedbox"
+        android:padding="10dp"
+        android:textSize="20sp"
+        android:layout_marginLeft="100dp"
+        android:layout_below="@+id/txtTueSrt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:id="@+id/txtWedEnd"
+        android:text="18:00"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/borderedbox"
+        android:padding="10dp"
+        android:textSize="20sp"
+        android:layout_below="@+id/txtTueEnd"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="40dp"
+        android:layout_toRightOf="@+id/txtMonSrt" />
+    <TextView
+        android:id="@+id/txtThuSrt"
+        android:text="9:00"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/borderedbox"
+        android:padding="10dp"
+        android:textSize="20sp"
+        android:layout_marginLeft="100dp"
+        android:layout_below="@+id/txtWedSrt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:id="@+id/txtThuEnd"
+        android:text="18:00"
+        android:layout_marginTop="10dp"
+        android:textSize="20sp"
+        android:layout_below="@+id/txtWedEnd"
+        android:background="@drawable/borderedbox"
+        android:padding="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="40dp"
+        android:layout_toRightOf="@+id/txtMonSrt" />
+    <TextView
+        android:id="@+id/txtFriSrt"
+        android:text="9:00"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/borderedbox"
+        android:padding="10dp"
+        android:textSize="20sp"
+        android:layout_marginLeft="100dp"
+        android:layout_below="@+id/txtThuSrt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:id="@+id/txtFriEnd"
+        android:text="18:00"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/borderedbox"
+        android:padding="10dp"
+        android:textSize="20sp"
+        android:layout_below="@+id/txtThuEnd"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="40dp"
+        android:layout_toRightOf="@+id/txtMonSrt" />
+
+    <TextView
+        android:id="@+id/txtTotalWorkingHours"
+        android:textSize="20sp"
+        android:layout_marginTop="40dp"
+        android:layout_width="wrap_content"
+        android:background="@drawable/borderedbox"
+        android:padding="10dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/txtFriSrt"
+        android:layout_centerHorizontal="true"
+        android:text="Total Working Hours : 45"/>
+
+
+
+</RelativeLayout>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/home" android:title="Home Page" />
+    <item android:id="@+id/sendMessage" android:title="Send Messages" />
+    <item android:id="@+id/workHours" android:title="Weekly Working Hours"/>
+    <item android:id="@+id/aboutMe" android:title="About Me"/>
+    <item android:id="@+id/logout" android:title="Log Out"/>
+
+</menu>
