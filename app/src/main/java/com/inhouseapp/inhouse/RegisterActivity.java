@@ -124,6 +124,9 @@ private void setRegisterReq(){
         @Override
         public void onResponse(JSONObject response) {
             Log.e("deneme", response.toString());
+            Toast.makeText(getApplicationContext(),"Kayıt Başarılı", Toast.LENGTH_LONG).show();
+            Intent intent = new Intent(getApplicationContext(), LoginActivity.class);
+            startActivity(intent);
         }
     }, new Response.ErrorListener() {
         @Override
