@@ -67,7 +67,6 @@ public class AboutActivity extends AppCompatActivity {
                     strDepartment = response.getString("department");
                     strDateOfEmployment = response.getString("dateOfEmployment");
                     strEmail = response.getString("email");
-
                     txtFirstName.setText(strFirstName);
                     txtLastName.setText(strLastName);
                     txtBirthDate.setText(strBirthDate);
